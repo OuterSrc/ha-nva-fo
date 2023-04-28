@@ -103,7 +103,8 @@ To create, configure, and deploy the function app:
 | AZURECLOUD     | Either *AzureCloud* or *AzureUSGovernment*                                              |
 | FW1NAME        | Name of the virtual machine hosting the first NVA firewall instance                     |
 | FW2NAME        | Name of the virtual machine hosting the second NVA firewall instance                    |
-| FWRGNAME       | Name of the resource group containing the NVA firewall virtual machines                 |
+| FW1RGNAME      | Name of the resource group containing the first NVA firewall virtual machine            |
+| FW2RGNAME      | Name of the resource group containing the second NVA firewall virtual machine           |
 | FWUDRTAG       | Resource tag value                                                                      |
 | FWTRIES        | *3* (enables three retries for checking firewall health before returning “Down” status) |
 | FWDELAY        | *2* (enables two seconds between retries)                                               |
